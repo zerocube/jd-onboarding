@@ -39,6 +39,8 @@ Note: Depending on the encoder available on your system, some options may not be
 Please enter all applicable values, and disregard the rest.
 If you are uncertain, please reach out to your project contact with a screenshot of this dialog.
 
+Please ensure that `Output Mode` (the drop down at the top of this dialog is set to `Advanced`).
+
 ```
 Encoder:                    H.264 (aka libx264 - Also NVidia NVENC H.264, Apple Hardware H.264, et al.)
 Bitrate:                    50% of available upload speed
