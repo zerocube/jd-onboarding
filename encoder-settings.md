@@ -11,21 +11,29 @@ OBS runs on Mac, Windows, and Linux - And can be downloaded here: https://obspro
 
 Open it up once you're ready to move on to the next step.
 
-### Step 1: Set up your scene(s)
+### Step 1: Configure OBS
 
-Your project contact should outline instructions and setup requirements.
-Please reach out to them if you have any questions about this step.
+For most setups, you can use the profile method below.
 
-### Step 2: Configure OBS
+#### With a Profile
+
+Inside the `obs_profiles` directory there is a zip file.
+
+Once you've extracted it somewhere on your system, import the profile into OBS.  
+(Menubar: `Profile` -> `Import`).
+
+Then head on over to step 2 to [set up your scenes](#step-2-set-up-your-scenes)!
+
+#### Manually
 
 In the main OBS window, click `Settings`.
 
-#### Stream
+##### Stream
 
 Because this information is generated on an as-needed basis, your project contact will send you the information you'll
 need to put in here.
 
-#### Output
+##### Output
 
 Note: Depending on the encoder available on your system, some options may not be available.
 Please enter all applicable values, and disregard the rest.
@@ -41,7 +49,7 @@ Profile:                    Main
 Preset:                     zerolatency / Low-Latency Performance
 ```
 
-#### Video
+##### Video
 
 ```
 Base (Canvas) Resolution:       1920x1080
@@ -49,20 +57,25 @@ Output (Scaled) Resolution:     1920x1080
 Framerate / Common FPS Values:  29.97
 ```
 
-#### Advanced
+##### Advanced
 
-##### Automatically Reconnect
+###### Automatically Reconnect
 ```
 Automatically Reconnect:  Enable
 Retry Delay:              3s
 Maximum Retries:          30
 ```
 
-##### Network
+###### Network
 
 ```
 Dynamically change bitrate to manage congestion: Checked / Enabled
 ```
+
+### Step 2: Set up your scene(s)
+
+Your project contact should outline instructions and setup requirements.
+Please reach out to them if you have any questions about this step.
 
 ## ffmpeg
 
