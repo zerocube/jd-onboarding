@@ -48,6 +48,9 @@ room that doesn't echo too much!
 Hard surfaces reflect sound, so a room filled with couches, rugs, and even bookcases will absorb some unwanted echo.
 Alternatively, a larger room might work better.
 
+If you need to use your laptop's built-in microphone, and a keyboard, consider using an external keyboard so that the
+mic doesn't pick up too much typing noise.
+
 ### Headphones
 
 Because we will also send a return feed back to you (typically a producer's line), it's crucial that you use
