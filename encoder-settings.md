@@ -42,9 +42,9 @@ If you are uncertain, please reach out to your project contact with a screenshot
 Please ensure that `Output Mode` (the drop down at the top of this dialog is set to `Advanced`).
 
 ```
-Encoder:                    H.264 (aka libx264 - Also NVidia NVENC H.264, Apple Hardware H.264, et al.)
-Bitrate:                    50% of available upload speed
-CBR (if available):         Yes - Use above bitrate
+Encoder:                    H.264 (aka x264 / libx264 - Also NVidia NVENC H.264, Apple Hardware H.264, et al.)
+Rescale Output:             Unchecked
+CBR (if available):         2000kbps, unless noted otherwise
 Keyframe Interval:          1
 Rate Limit (if available):  Yes
 Profile:                    Main
@@ -85,11 +85,11 @@ Note: This option is for advanced users only, that are confident using and debug
 line.
 
 ```bash
-export VIDEO_BITRATE="2500k" # Set to 50% of available upload speed
+export VIDEO_BITRATE="2000k" # Set to 50% of available upload speed
 export INPUT="device-here"
-export RTMP_ENDPOINT="from-project-contact"
+export STREAM_ENDPOINT="from-project-contact"
 
-ffmpeg -i "${INPUT} -c:v libx264 -c:a aac -b:v "${VIDEO_BITRATE}" -f flv "${RTMP_ENDPOINT}
+ffmpeg -i "${INPUT} -c:v libx264 -c:a aac -b:v "${VIDEO_BITRATE}" -f flv "${STREAM_ENDPOINT}
 ```
 
 Depending on what your source is, you may want to consider:
