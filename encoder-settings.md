@@ -19,18 +19,26 @@ For most setups, you can use the profile method below.
 
 Download the [ZEROCUBE_Livestream_Profile.zip](obs-profiles/ZEROCUBE_Livestream_Profile.zip) and extract is somewhere.
 
-![](/screenshots/extract.png)
+<p align="center">
+  <img width="500" src="/screenshots/extract.png">
+</p>
 
 Once you've extracted it somewhere on your system, import the profile into OBS.
 (Menubar: `Profile` -> `Import` -> select the extracted folder -> `Open`).
 
-![](/screenshots/import.png)
+<p align="center">
+  <img width="500" src="/screenshots/import.png">
+</p>
 
-![](/screenshots/open.png)
+<p align="center">
+  <img width="500" src="/screenshots/open.png">
+</p>
 
 Then select the profile (Menubar: `Profile` -> `ZEROCUBE Livestream Profile`)
 
-![](/screenshots/select.png)
+<p align="center">
+  <img width="500" src="/screenshots/select.png">
+</p>
 
 Then head on over to step 2 to [set up your scenes](#step-2-set-up-your-scenes)!
 
