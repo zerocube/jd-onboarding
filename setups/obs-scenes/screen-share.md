@@ -18,6 +18,8 @@ We use OBS to capture your screen, and send it to the studio. Typical use cases 
   <img width="500" src="/screenshots/add-source.png">
 </p>
 
+_Please note: if you're using macOS Catalina or newer, you may need to tick the check box next to OBS in [System Preferences here](x-apple.systempreferences:com.apple.preference.security?Privacy_ScreenCapture) to be able to see your screen in OBS_
+
 4. Select the display you want to capture. It's recommended to use a second display to share, so that you have a
    display handy for the video call (if any), or live chat.
    Checking the `Capture cursor` box will make the mouse cursor visible.
