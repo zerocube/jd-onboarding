@@ -4,7 +4,7 @@ description: "We'll load some defaults into OBS with our handy-dandy profile."
 ---
 
 Download the ZEROCUBE Profile zip file:  
-https://github.com/zerocube/remote-studio/blob/main/obs-profiles/ZEROCUBE_Livestream_Profile.zip
+https://github.com/zerocube/jd-onboarding/blob/main/obs-profiles/ZEROCUBE_Livestream_Profile.zip
 
 Once you've downloaded it, extract it to somewhere on your system.
 
